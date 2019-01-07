@@ -2,7 +2,7 @@
 
 * GCC command - Compiles binary via vulnerable configuration
 ```
-gcc -z execstack -no-pie -w -o stack0 stack0.c: 
+gcc -z execstack -no-pie -w -o stack0 stack0.c
 ```
 
 * PEDA installation
