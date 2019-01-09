@@ -11,3 +11,8 @@ git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 echo "DONE! debug your program with gdb and enjoy"
 ```
+
+* Turns off ASLR in Kali
+```
+echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
+```
