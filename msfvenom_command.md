@@ -1,0 +1,3 @@
+# msfvenom command for shellcode
+
+* 
